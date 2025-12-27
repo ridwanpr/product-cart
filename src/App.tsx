@@ -6,7 +6,7 @@ import ProductGrid from "./components/ProductGrid";
 
 const App = () => {
   return (
-    <div className="container mx-auto p-8 grid gap-6 md:grid-cols-[3fr_1fr] md:h-screen md:overflow-hidden">
+    <div className="container mx-auto p-8 grid gap-4 md:grid-cols-[2fr_1fr] lg:grid-cols-[3fr_1fr] md:h-screen md:overflow-hidden">
       <main className="md:overflow-y-auto md:pr-4">
         <h1 className="font-bold text-4xl mb-4">Desserts</h1>
         <ProductGrid />
